@@ -30,18 +30,9 @@ def finished(dir):
 
 	return finished
 
-string = '''## Leetcode
-    Run ./run.sh to push file an get schedule info
+string = ''''''
 
-## Week 1 4.16 - 4.22
-    30 Assigned:
-    F:
-    M: 1, 136, 3, 771, 535, 217, 149, 202, 138, 49, 463, 219, 760, 36, 85
-    L: 2, 237, 21, 206, 23, 148, 141, 138, 328, 234, 160, 147, 142, 24, 19
-  
-    '''
-
-f = open("README.md", "w+")
+f = open("README.md", "a+")
 f.write(string)
 
 # week 1
@@ -52,7 +43,7 @@ q = list(set(q))
 q.sort()
 
 print 'Total: ', len(set(q))
-f.write('Total: %d\n'%len(set(q)))
+f.write('\tTotal: %d\n'%len(set(q)))
 
 # Finished
 m_finished = finished('Mao')

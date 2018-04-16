@@ -1,8 +1,8 @@
 #!/bin/bash
 
 git pull
-git add Mao/. shadow/. q.py run.sh README.md
+mv REAMEcopy.md README.md
 python q.py
+git add --all
 git commit -m "Questions Answered"
 git push
-python q.py
