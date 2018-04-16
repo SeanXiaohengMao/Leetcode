@@ -1,4 +1,5 @@
 ## Leetcode
+    Run ./run.sh to push file an get schedule info
 
 ## Week 1 4.16 - 4.22
     30 Assigned:
