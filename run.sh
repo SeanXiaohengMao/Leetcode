@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git pull
-mv READMEcopy.md README.md
+mv RDcopy README.md
 python q.py
 git add --all
 git commit -m "Questions Answered"
