@@ -12,5 +12,5 @@
 	 finished: 12
 	 unfinished: [2, 3, 21, 23, 24, 36, 85, 138, 142, 147, 148, 149, 328, 463, 535, 760, 771]
 	shadow:
-	 finished: 23
-	 unfinished: [36, 49, 85, 149, 202, 760]
+	 finished: 24
+	 unfinished: [36, 49, 85, 149, 760]
