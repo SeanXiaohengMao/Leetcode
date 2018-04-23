@@ -9,8 +9,8 @@
  
 	Total: 29
 	Mao:
-	 finished: 14
-	 unfinished: [2, 3, 23, 24, 36, 85, 138, 142, 147, 148, 149, 328, 535, 760, 771]
+	 finished: 16
+	 unfinished: [2, 3, 23, 36, 85, 138, 142, 147, 148, 149, 328, 535, 760]
 	shadow:
 	 finished: 26
 	 unfinished: [36, 85, 149]
