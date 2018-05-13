@@ -26,7 +26,9 @@ def finished(dir):
 	else:
 		numlist = sorted( set(q) - set(finished) )
 		print ' unfinished: ', numlist
+		print ' unfinished number: ', len(numlist)
 		f.write('\t unfinished: %s\n'%str(numlist))
+		f.write('\t unfinished number: %s\n'%str(len(numlist)))
 
 	return finished
 
