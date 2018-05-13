@@ -1,6 +1,6 @@
-# ''' 
+# '''
 # Python File for Leetcode Question Schedule Follow Up
-# Version: 0.1 
+# Version: 0.1
 # '''
 
 import sys
@@ -47,7 +47,7 @@ q += [242, 347, 349, 500, 387, 336, 187, 204, 37, 76, 205, 18, 350, 30, 200, 279
 # fang
 q += []
 # liu
-q += []
+q += [143, 83, 445, 203, 109, 25, 92, 86, 61, 82, 4, 11, 561, 66, 122, 53, 169, 283, 121, 42]
 
 q = list(set(q))
 q.sort()
@@ -60,4 +60,3 @@ m_finished = finished('Mao')
 s_finished = finished('shadow')
 
 f.close
-
