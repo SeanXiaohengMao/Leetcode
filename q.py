@@ -64,5 +64,6 @@ f.write('\tTotal: %d\n'%len(set(q)))
 # Finished
 m_finished = finished('Mao')
 s_finished = finished('shadow')
+h_finished = finished('Hao')
 
 f.close
