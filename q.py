@@ -1,6 +1,10 @@
-# ''' 
+# '''
 # Python File for Leetcode Question Schedule Follow Up
+<<<<<<< HEAD
 # Version: 0.2
+=======
+# Version: 0.1
+>>>>>>> f127029c0cca20dc5cb5d5f4e8f6bf1ed04dff0b
 # '''
 
 import sys
@@ -39,6 +43,7 @@ string = ''''''
 f = open("README.md", "a+")
 f.write(string)
 
+<<<<<<< HEAD
 # Add. questions
 q = []
 
@@ -54,6 +59,19 @@ for line in f0:
 			if new.isdigit():
 				q.append(int(new))
 f0.close()
+=======
+# week 1
+q = [1, 136, 3, 771, 535, 217, 149, 202, 138, 49, 463, 219, 760, 36, 85]
+q += [2, 237, 21, 206, 23, 148, 141, 138, 328, 234, 160, 147, 142, 24, 19]
+
+# week 2
+# mao
+q += [242, 347, 349, 500, 387, 336, 187, 204, 37, 76, 205, 18, 350, 30, 200, 279, 101, 127, 301, 102, 111, 133]
+# fang
+q += [104, 226, 617, 100, 173, 96, 110, 101, 669, 236, 654, 99, 109, 222, 257, 114, 94, 543, 199, 144]
+# liu
+q += [143, 83, 445, 203, 109, 25, 92, 86, 61, 82, 4, 11, 561, 66, 122, 53, 169, 283, 121, 42]
+>>>>>>> f127029c0cca20dc5cb5d5f4e8f6bf1ed04dff0b
 
 q = list(set(q))
 q.sort()
@@ -66,4 +84,3 @@ m_finished = finished('Mao')
 s_finished = finished('shadow')
 
 f.close
-
