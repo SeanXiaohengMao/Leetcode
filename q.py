@@ -1,11 +1,13 @@
 # ''' 
 # Python File for Leetcode Question Schedule Follow Up
-# Version: 0.1 
+# Version: 0.2
 # '''
 
 import sys
 from os import listdir
 from os.path import splitext
+import re
+
 
 global q
 
@@ -37,17 +39,21 @@ string = ''''''
 f = open("README.md", "a+")
 f.write(string)
 
-# week 1
-q = [1, 136, 3, 771, 535, 217, 149, 202, 138, 49, 463, 219, 760, 36, 85]
-q += [2, 237, 21, 206, 23, 148, 141, 138, 328, 234, 160, 147, 142, 24, 19]
+# Add. questions
+q = []
 
-# week 2
-# mao
-q += [242, 347, 349, 500, 387, 336, 187, 204, 37, 76, 205, 18, 350, 30, 200, 279, 101, 127, 301, 102, 111, 133]
-# fang
-q += []
-# liu
-q += []
+# Read Questions From File
+f0 = open("README.md", "r")
+for line in f0:
+	matchObj = re.match( r'\s*[M|F|L]:([\d\s,]*)', line, re.M|re.I)
+	if matchObj:
+		arr = matchObj.group(1).split(',')
+		for i in arr:
+			matchObj_i = re.match( r'\s*(\d*).*', i, re.M|re.I)
+			new = matchObj_i.group(1)
+			if new.isdigit():
+				q.append(int(new))
+f0.close()
 
 q = list(set(q))
 q.sort()
